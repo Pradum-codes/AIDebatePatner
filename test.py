@@ -12,7 +12,7 @@ logging.basicConfig(level=logging.INFO)
 os.environ["GRPC_DEFAULT_SSL_ROOTS_FILE_PATH"] = ""
 
 # Set up Gemini API Key
-genai.configure(api_key="")
+genai.configure(api_key="AIzaSyBhmtN74htSaKlDUVQ_LBXW29V4vTIWAKI")
 
 # Initialize Speech Engine
 engine = pyttsx3.init()
